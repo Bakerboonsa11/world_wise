@@ -1,9 +1,11 @@
 // Uses the same styles as Product
 import styles from "./Product.module.css";
+import NavBar from "../components/AppNav.jsx";
 
- function Price_page() {
+function Price_page() {
   return (
     <main className={styles.product}>
+      <NavBar />
       <section>
         <div>
           <h2>
@@ -22,4 +24,4 @@ import styles from "./Product.module.css";
     </main>
   );
 }
-export default Price_page
+export default Price_page;

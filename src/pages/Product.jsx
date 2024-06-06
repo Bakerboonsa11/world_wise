@@ -1,8 +1,10 @@
 import styles from "./Product.module.css";
+import NavBar from "../components/AppNav.jsx";
 
 export default function Product() {
   return (
     <main className={styles.product}>
+      <NavBar />
       <section>
         <img
           src="img-1.jpg"
