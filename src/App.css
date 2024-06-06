@@ -1,0 +1,9 @@
+.navbar {
+  background-color: green;
+  color: #fff;
+  font-size: 30px;
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
