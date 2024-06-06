@@ -6,7 +6,7 @@ function NavBar() {
     <nav className={style.nav}>
       <ul>
         <li>
-          <Link to="/home_page">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/pricing"> pricing</Link>

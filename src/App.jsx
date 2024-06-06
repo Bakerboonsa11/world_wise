@@ -2,20 +2,19 @@ import { useState } from "react";
 
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/home_page";
-import Product from "./pages/product.jsx";
-import Price from "./pages/pricing.jsx";
+import Homepage from "./pages/Homepage.jsx";
+import Product from "./pages/Product.jsx";
+import Price_page from "./pages/Pricinig.jsx";
 
 function App() {
   return (
     <>
-      <h1>this is a home page </h1>
-
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="product" element={<Product />} />
-          <Route path="pricing" element={<Price />} />
+          <Route path="/" element={<Homepage />} />
+          <Route path="Product" element={<Product />} />
+          <Route path="Pricinig" element={<Price_page />} />
+          {/* <Route path="AppLayout" element={<AppLayout />} /> */}
         </Routes>
       </BrowserRouter>
     </>
